@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+print("Streamlit app started!")
 
 st.title("AI Prompt Generator")
 
