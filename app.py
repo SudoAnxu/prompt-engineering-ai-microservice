@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 st.title("AI Prompt Generator")
-API_URL = "http://localhost:8000"
+API_URL = "https://prompt-engineering-ai-microservice.onrender.com"
 USER_ID = "demo_user"
 
 query = st.text_input("Enter your question/topic:")
